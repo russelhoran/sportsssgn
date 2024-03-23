@@ -1,0 +1,118 @@
+/* styles.module.css */
+
+/* Define styles for the custom card */
+.custom-card {
+  max-width: calc(33.33% - 20px); /* Adjust the card width to fit three cards in a row with 20px gap */
+  border: 1px solid red;
+}
+
+/* Define styles for the card body */
+.card-body {
+  height: 150px; /* Ensure the card body fills the entire height */
+  background: #3B3E47;
+}
+
+/* Define styles for the card image */
+.card-img-top {
+  width: 385px;
+  height: 385px;
+}
+
+/* Define styles for the card title */
+.card-title {
+padding: 10px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20.57px;
+  text-align: left;
+  align-items: center;
+  color: #FFFFFF;
+  Width:200px;
+Height:21px;
+Top:-745px;
+Left:-1758px;
+}
+
+/* Define styles for the container holding the cards */
+.container {
+  border: 1px solid red;
+  background-color: #292B32;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  box-shadow: 0px 8px 16px 0px #0000000D;
+}
+
+/* Define styles for the small rectangle container */
+.smallRectangle {
+  width: 217px;
+  height: 54px;
+  background: #292B32;
+  border-radius: 2px;
+  position: relative; /* Change to relative positioning */
+  margin-top: 20px; /* Adjust as needed */
+  margin-left: 10px;
+}
+
+/* Define styles for the content inside the small rectangle */
+.content {
+  display: flex; /* Display content in a row */
+  align-items: center; /* Center content vertically */
+  justify-content: space-between; /* Distribute content evenly */
+  height: 100%; /* Occupy full height of the container */
+  padding: 0 10px; /* Add padding for spacing */
+}
+
+/* Define common styles for the group elements */
+.group {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #DFDFDF;
+}
+
+/* Adjust the positioning for each group to prevent overlap */
+.total-events,
+.group-1990,
+.events,
+.sport,
+.baseball {
+  position: relative;
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+
+/* Define common styles for the group elements */
+.group-1991, .group-1990 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Adjust the layout for the span elements */
+.group-1991 span,
+.group-1990 span {
+  width: 100%;
+  text-align: center;
+  Font:Inter;
+font-weight:500;
+size:14px;
+color: #FFFFFF;
+
+}
+
+.sportsHed {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 20px; /* Adjust margin-top as needed */
+}
